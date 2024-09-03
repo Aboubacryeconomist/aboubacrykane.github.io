@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboubacry Kane - Conferences</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="references.html">References</a>
+        <a href="conference.html">Conference</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Aboubacry Kane</h1>
+            <p>Postdoctoral Researcher at Polytechnique Montréal</p>
+        </header>
+        
+        <section>
+            <h2>Conferences</h2>
+            <ul>
+                <li><strong><a href="https://www.acfas.ca/evenements/congres/programme/91/600/612/c" target="_blank">Kane, Aboubacry</a></strong> (2024). Écosystème de connaissance agroalimentaire : acteurs et collaborations au Canada. 91e Colloque de l’ACFAS. Colloque 612 : Des chaînes d’approvisionnement responsables et ouvertes pour la transformation et la traçabilité des écosystèmes agroalimentaires (CAROTTE AA). Ottawa, Mai 2024.</li>
+                <li><strong><a href="https://www.iamm.ciheam.org/fr/agendas/la-2eme-journee-mediterraneenne-modelisation-et-analyse-statistique-et-economique-jmmase-2023-est-organisee-a-montpellier-au-ciheam-iamm/" target="_blank">Kane, Aboubacry & Huchet Marilyne</a></strong> (2023). Agricultural productivity and food security in the countries of the West African Economic and Monetary Union (UEMOA): A gender analysis. 2nd Mediterranean Day on Modeling and Statistical and Economic Analysis. CIHEAM Montpellier (France). Montpellier, December 2023.</li>
+                <li><strong><a href="https://www.iamm.ciheam.org/fr/agendas/la-2eme-journee-mediterraneenne-modelisation-et-analyse-statistique-et-economique-jmmase-2023-est-organisee-a-montpellier-au-ciheam-iamm/" target="_blank">Kane, Aboubacry & Aidara M. Moustapha</a></strong> (2022). Differences in Agricultural Productivity Among Women and Men on Small-Scale Farms in Senegal: Contributions of Agricultural Innovations. 26th The International Consortium on Applied Bioeconomy Research (ICABR) annual conference. July 5 to 8, 2022 Bologna, Italy.</li>
+                <li><strong><a href="https://africalics.org/wp-content/uploads/2024/01/8th-PhD-Academy-2022.pdf" target="_blank">Kane, Aboubacry</a></strong> (2022). Innovation capacity and effect on the productivity of Senegalese manufacturing firms. 8th AfricaLics Ph.D. Academy on Innovation and Competence Building Systems hosted by AfricaLics in Nairobi. Juin 2022.</li>
+                <li><strong><a href="https://ofe.umontreal.ca/fileadmin/ofe/documents/Conferences/3eCIFE/Programme_final_-_3eCIFE_-_16_mars_.pdf" target="_blank">Kane, Aboubacry</a></strong> (2022). Unlocking the Productivity Potential of Female Farmers. 3rd International Conference on Economic Francophonie. Observatory of Economic Francophonie. Dakar, March 2022.</li>
+                <li><strong><a href="https://matchboxvirtual.com/50x2030_global_data_use_conference/" target="_blank">Kane, Aboubacry & Aidara M. Moustapha</a></strong> (2021). Differences in agricultural productivity among women and men small-scale producers in Senegal: the role of agricultural innovations. 50X2030 Global Data Use Conference 2021. Novembre 2021, Italie, Décembre 2021.</li>
+                <li><strong>Kane, Aboubacry</strong> (2021). Innovation and Productivity in Senegalese Companies. Presentation at the Economists’ Days of Senegal. April 2021, Senegal.</li>
+                <li><strong>Kane, Aboubacry</strong> (2021). Innovation Capacity and Effects on the Productivity of Senegalese Manufacturing Firms. International Symposium on the Entrepreneurial Ecosystem in Africa: What Strategies to Support SMEs in Africa? Abidjan, June 2021.</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>Contact: aboubacry-2.kane@polymtl.ca</p>
+        </footer>
+    </div>
+
+</body>
+</html>
