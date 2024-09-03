@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aboubacry Kane - Teaching</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
         .institution {
             font-weight: bold;
             color: blue;
@@ -15,48 +46,43 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Aboubacry Kane</h1>
-        <p>Postdoctoral Researcher at Polytechnique Montréal</p>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="reference.html">Reference</a></li>
-            <li><a href="conference.html">Conference</a></li>
-        </ul>
-    </nav>
-    
-    <section>
-        <h2>Teaching Experience</h2>
-        
-        <h3 class="institution">Université Cheikh Anta Diop de Dakar (UCAD)</h3>
-        <ul>
-            <li><span class="course">Economic Analysis 1 & 2</span>, Licence 1 & 2 (2021-2022)</li>
-            
-            <li><span class="course">International Trade</span>, Licence 3, hiver (2021-2022)</li>
-            
-            <li><span class="course">Microeconomics 1 & 2</span>, Licence 1 & 2 (2020-2021)</li>
-            
-            <li><span class="course">Development Economics</span>, Licence 3 (2019-2020)</li>
-            
-            <li><span class="course">Project Analysis and Evaluation</span> (2019-2020)</li>
-            
-            <li><span class="course">Tutor in Macroeconomics and Quantitative Techniques</span> (2017-2018)</li>
-        </ul>
 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="references.html">References</a>
+        <a href="conference.html">Conference</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Aboubacry Kane</h1>
+            <p>Postdoctoral Researcher at Polytechnique Montréal</p>
+        </header>
         
-        <h3 class="institution">Institut Technique de Commerce (ITECOM/Rufisque)</h3>
-        <ul>
-            <li><span class="course">General Economics</span> (2015-2019)</li>
-        </ul>
-    </section>
-    
-    <footer>
-        <p>Contact: aboubacry-2.kane@polymtl.ca</p>
-    </footer>
+        <section>
+            <h2>Teaching Experience</h2>
+            <p><span class="institution">Université Cheikh Anta Diop de Dakar (UCAD)</span></p>
+            <ul>
+                <li><span class="course">Economic Analysis 1 & 2</span> - Licence 1 et 2 (2021-2022)</li>
+                <li><span class="course">International Trade</span> - Licence 3, hiver (2021-2022)</li>
+                <li><span class="course">Microeconomics 1 & 2</span> - Licence 1 et 2 (2020-2021)</li>
+                <li><span class="course">Development Economics</span> - Licence 3 (2019-2020)</li>
+                <li><span class="course">Project Analysis and Evaluation</span> (2019-2020)</li>
+                <li>Tutor in <span class="course">Macroeconomics and Quantitative Techniques</span> (2017-2018)</li>
+            </ul>
+            
+            <p><span class="institution">Institut technique de commerce (ITECOM/Rufisque)</span></p>
+            <ul>
+                <li><span class="course">General Economics</span> (2015-2019)</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p class="contact-info">Contact: aboubacry-2.kane@polymtl.ca</p>
+        </footer>
+    </div>
+
 </body>
 </html>
