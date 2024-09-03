@@ -7,34 +7,42 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 20px;
         }
-        header, nav, section, footer {
-            margin-bottom: 20px;
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
         }
         h1, h2, h3 {
             color: #333;
         }
         p {
+            line-height: 1.6;
             margin-bottom: 10px;
         }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
+        .contact-info {
+            margin-top: 20px;
+            font-weight: bold;
         }
-        nav ul li {
-            display: inline;
-            margin-right: 15px;
+        img {
+            margin-top: 20px;
         }
-        nav ul li a {
-            text-decoration: none;
-            color: #0066cc;
-        }
-        footer {
-            font-size: 0.9em;
-            color: #666;
+        .institution {
+            font-weight: bold;
         }
         table {
             width: 100%;
@@ -51,118 +59,109 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Aboubacry Kane</h1>
-        <p>Postdoctoral Researcher at Polytechnique Montréal</p>
-    </header>
-    
+
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="reference.html">Reference</a></li>
-            <li><a href="conference.html">Conference</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="references.html">References</a>
+        <a href="conference.html">Conference</a>
     </nav>
-    
-    <section>
-        <h2>Research Statement</h2>
-        <p>My research focuses on applied microeconomics and industrial organization, with a particular emphasis on innovation, productivity, and agricultural economics. My multidisciplinary approach integrates econometrics, management, and modeling to explore how innovation and technology can serve as levers for economic growth and the well-being of economic agents, particularly in contexts where resources and infrastructure are limited.</p>
 
-        <h3><strong style="color:red;">Key Contributions:</strong></h3>
-
-        <p><strong>Doctoral Thesis:</strong> <a href="https://annuairechercheurs.ucad.sn/ndiack.fall" target="_blank">"Innovation Capacity and Its Effect on the Productivity of Senegalese Manufacturing Firms"</a></p>
-         <p>In my doctoral thesis, I analyzed the influence of innovation on the productivity of Senegalese manufacturing firms using an extension of the Crépon-Duguet-Mairesse (CDM, 1998) structural model. My findings revealed an interdependence between technological and non-technological innovations, as well as the significant impact of Research and Development (R&D) activities on process innovation. However, the effect of innovation on productivity remains limited, highlighting the need for an integrated approach that combines innovation, managerial capacities, and a national innovation system. This research not only enriched the literature on industrial organization in Africa but also provided concrete recommendations for improving industrial policy in Senegal. Most of these recommendations have been incorporated into Senegal's industrialization strategy for 2035. I specifically emphasized the importance for Senegal's manufacturing industry to leverage the Fourth Industrial Revolution (4IR) by undergoing a digital transformation. This transformation involves intelligent automation and the integration of new technologies, such as artificial intelligence (AI), into the production chain.</p>
-
-        <p><strong><a href="https://publication.aercafricalibrary.org/items/9446999f-c9ea-4a50-b7a7-f0e54941636d" target="_blank">Kane, Aboubacry (2023). "Analysing the Relationship between Innovation and Productivity: A Case Study of Senegalese Manufacturing Industries." African Economic Research Consortium, Research Paper 542.</a></strong></p>
-        <p>This research article, which serves as a preliminary draft of my thesis, aims to profile innovative companies and examine the link between innovation and productivity in Senegalese manufacturing firms, considering the interaction between different types of innovation. Using analysis of variance (ANOVA) and multivariate regression, the study found that, despite Senegal's satisfactory level of technology adoption, an innovation deficit persists in the industrial sector, particularly in R&D activities. Large enterprises and firms that export their products are the most innovative. However, no significant relationship was found between the gender of the firm’s manager and the adoption of various types of innovation. The study shows that innovation adoption is positively related to improved labor productivity, although this relationship is not observed for other types of innovation.</p>
-        <p><strong>Impact:</strong> This article, funded by the African Economic Research Consortium (AERC), was presented at conferences and biannual sessions organized by the AERC. I emphasized the importance of complementarity between investments in innovation, the development of managerial and technological capacities, and the implementation of coherent innovation policies by the government. The findings of this study have laid the foundation for advocating the creation of government programs to support innovation, particularly through funding R&D and facilitating access to advanced technologies for Senegalese companies. This research has heightened policymakers' awareness of the significant barriers hindering the effective adoption of technologies in Senegalese industries, such as the lack of employee training and the absence of a national innovation system (NIS). By filling a critical gap in the literature on innovation in Africa, this study has also paved the way for future research.</p>
-
-        <p><strong><a href="https://ccsenet.org/journal/index.php/jas/article/view/0/47042" target="_blank">Kane, Aboubacry & Aidara, M. Moustapha (2022).</a></strong> "Differences in Agricultural Productivity Among Women and Men on Small-Scale Farms in Senegal: Contributions of Agricultural Innovations." Journal of Agricultural Science. Vol. 14, No. 5. DOI:10.5539/jas.v14n5p1</p>
-        <p>This paper examines the impact of technological innovations on gender gaps in agricultural productivity in Senegal. Using multivariate models based on the Kitagawa-Oaxaca-Blinder decomposition approach, the study reveals that plots managed by women are, on average, more productive than those managed by men, primarily due to the smaller plot sizes and the cultivation of rainfed rice, a high-yield crop often grown by women. The observed productivity gap is largely explained by differences in endowments, particularly unequal access to resources. Innovations such as certified seeds and chemical fertilizers are associated with increased productivity, and improving women’s access to these innovations could unlock even greater productivity potential.</p>
-        <p><strong>Impact:</strong> Following this work, I was invited to present the research findings to stakeholders (IFAD, Senegal’s Ministry of Agriculture, and farmers) and authored a policy brief that outlines the various recommendations from the study. I emphasized the need to improve women’s access to land and agricultural innovations to maximize agricultural productivity in Senegal. The recommendations include land tenure reforms, financing innovations for women, and reducing barriers to the adoption of motorized equipment. This study fills an information gap on the drivers of agricultural productivity in Senegal and proposes policy levers to increase food production, improve equity, and optimize decision-making within the framework of the National Agricultural Investment Program for Food Security and Nutrition (PNIASAN). It provides an empirical basis for informing policies aimed at reducing gender disparities in technology adoption and productivity.</p>
-
+    <div class="container">
+        <header>
+            <h1>Aboubacry Kane</h1>
+            <p>Postdoctoral Researcher at Polytechnique Montréal</p>
+        </header>
         
-        <p><strong>Kane, Aboubacry & Huchet, Marilyne.</strong> "Agricultural Productivity and Food Security in the Countries of the West African Economic and Monetary Union (WAEMU): A Gender Analysis."</p>
-        <p>This study analyzes the determinants of agricultural productivity by gender and examines its impact on food security within the West African Economic and Monetary Union (WAEMU). The research applies a two-stage least squares (2SLS) method to identify factors influencing productivity by gender and correct for endogeneity bias. The results show that factors such as family farming, pesticide use, improved seeds, and organic fertilizers increase productivity, regardless of gender. Marriage enhances productivity for women, while certain agricultural practices, such as herbicide use and crop association, have a negative impact. Agricultural productivity contributes to food security, as measured by the Household Hunger Score (HHS), but not by the Household Dietary Diversity Score (HDDS).</p>
-        <p><strong>Impact:</strong> This research highlights the importance of integrating gender dynamics into agricultural policies to improve productivity and food security in the WAEMU region. The findings have helped raise awareness among policymakers about the need to invest in agricultural technologies, support family farming, and promote the diversification of crops and income. The study proposes specific policies to strengthen the productivity of women farmers and recommends targeted initiatives to improve food security for vulnerable households. These conclusions provide a solid foundation for policy development and future research, suggesting an extension of the analysis to sub-Saharan Africa and a longitudinal approach to agricultural productivity trends.</p>
+        <section>
+            <h2>Research Statement</h2>
+            <p>My research focuses on applied microeconomics and industrial organization, with a particular emphasis on innovation, productivity, and agricultural economics. My multidisciplinary approach integrates econometrics, management, and modeling to explore how innovation and technology can serve as levers for economic growth and the well-being of economic agents, particularly in contexts where resources and infrastructure are limited.</p>
 
+            <h3><strong style="color:red;">Key Contributions:</strong></h3>
 
-        <h3><strong style="color:red;">Policy Brief:</strong></h3>
+            <p><strong>Doctoral Thesis:</strong> <a href="https://annuairechercheurs.ucad.sn/ndiack.fall" target="_blank">"Innovation Capacity and Its Effect on the Productivity of Senegalese Manufacturing Firms"</a></p>
+            <p>In my doctoral thesis, I analyzed the influence of innovation on the productivity of Senegalese manufacturing firms using an extension of the Crépon-Duguet-Mairesse (CDM, 1998) structural model. My findings revealed an interdependence between technological and non-technological innovations, as well as the significant impact of Research and Development (R&D) activities on process innovation. However, the effect of innovation on productivity remains limited, highlighting the need for an integrated approach that combines innovation, managerial capacities, and a national innovation system. This research not only enriched the literature on industrial organization in Africa but also provided concrete recommendations for improving industrial policy in Senegal. Most of these recommendations have been incorporated into Senegal's industrialization strategy for 2035. I specifically emphasized the importance for Senegal's manufacturing industry to leverage the Fourth Industrial Revolution (4IR) by undergoing a digital transformation. This transformation involves intelligent automation and the integration of new technologies, such as artificial intelligence (AI), into the production chain.</p>
 
-        <p><strong><a href="https://www.50x2030.org/sites/default/files/resources/documents/2023-07/Policy%20Brief_Senegal_Aboubacry%20Kane%20et%20al_Differences%20in%20Agricultural%20Productivity%20Among%20Women%20and%20Men.pdf" target="_blank">Exploring differences in agricultural productivity among women and men on small-scale farms in Senegal: Contributions of agricultural innovations</a></strong></p>
-        <p>October 2021 By Aboubacry KANE and MOUHAMADOU M. AIDARA</p>
-        <p><strong>KEY MESSAGES</strong></p>
-        <ul>
-   
-            <li>On small-scale farms in Senegal men are more likely than women to adopt agricultural innovations such as improved seed, fertilizer, agrochemicals, or machinery.</li>
-            <li>However, farm plots managed by women are, on average, more productive than those managed by men for many crops and across regions in the country.</li>
-            <li>The fact that women cultivate smaller plots, as well as specialize in certain high-yielding crops including rainfed rice, explains much of this difference in land productivity.</li>
-            <li>Multivariate models based on the Kitagawa-Oaxaca-Blinder approach suggest that if endowments of women's plots – especially size of farmed areas – were adjusted to the same level as those of men's plots, men's productivity would be higher, in part due to greater use of agricultural technologies.</li>
-            <li>If women and men had the same level of adoption of certified seed and chemical fertilizers (NPK, Urea, Phosphate), then women's productivity would further increase by between 0.4% and 0.5%.</li>
-            <li>Study findings suggest a need for further studies using gender disaggregated data to fully unleash the agricultural production potential of both women and men in rural Senegalese farm communities.</li>
-        </ul>
+            <p><strong><a href="https://publication.aercafricalibrary.org/items/9446999f-c9ea-4a50-b7a7-f0e54941636d" target="_blank">Kane, Aboubacry (2023). "Analysing the Relationship between Innovation and Productivity: A Case Study of Senegalese Manufacturing Industries." African Economic Research Consortium, Research Paper 542.</a></strong></p>
+            <p>This research article, which serves as a preliminary draft of my thesis, aims to profile innovative companies and examine the link between innovation and productivity in Senegalese manufacturing firms, considering the interaction between different types of innovation. Using analysis of variance (ANOVA) and multivariate regression, the study found that, despite Senegal's satisfactory level of technology adoption, an innovation deficit persists in the industrial sector, particularly in R&D activities. Large enterprises and firms that export their products are the most innovative. However, no significant relationship was found between the gender of the firm’s manager and the adoption of various types of innovation. The study shows that innovation adoption is positively related to improved labor productivity, although this relationship is not observed for other types of innovation.</p>
+            <p><strong>Impact:</strong> This article, funded by the African Economic Research Consortium (AERC), was presented at conferences and biannual sessions organized by the AERC. I emphasized the importance of complementarity between investments in innovation, the development of managerial and technological capacities, and the implementation of coherent innovation policies by the government. The findings of this study have laid the foundation for advocating the creation of government programs to support innovation, particularly through funding R&D and facilitating access to advanced technologies for Senegalese companies. This research has heightened policymakers' awareness of the significant barriers hindering the effective adoption of technologies in Senegalese industries, such as the lack of employee training and the absence of a national innovation system (NIS). By filling a critical gap in the literature on innovation in Africa, this study has also paved the way for future research.</p>
 
-        <h3>Table: Summary Policy Implications</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Policy instruments</th>
-                    <th>Benefits</th>
-                    <th>Disadvantages</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Facilitating access to land for women</td>
-                    <td>- Unlocking the productivity potential of women<br>- Less expensive than other instruments<br>- Fairness instrument</td>
-                    <td>- No disadvantages</td>
-                </tr>
-                <tr>
-                    <td>Ensure the availability of innovations and increase women's ability to bear the cost of innovations.</td>
-                    <td>- Modernize agricultural work tools.<br>- Increase agricultural yields with innovative techniques and practices.<br>- Increase women's income.</td>
-                    <td>- Costly<br>- Its implementation requires a great deal of financial and technical effort at several levels.</td>
-                </tr>
-                <tr>
-                    <td>Subsidize motorized equipment for women</td>
-                    <td>- Reduction of costs incurred in production.</td>
-                    <td>- Costly</td>
-                </tr>
-            </tbody>
-        </table>
+            <p><strong><a href="https://ccsenet.org/journal/index.php/jas/article/view/0/47042" target="_blank">Kane, Aboubacry & Aidara, M. Moustapha (2022).</a></strong> "Differences in Agricultural Productivity Among Women and Men on Small-Scale Farms in Senegal: Contributions of Agricultural Innovations." Journal of Agricultural Science. Vol. 14, No. 5. DOI:10.5539/jas.v14n5p1</p>
+            <p>This paper examines the impact of technological innovations on gender gaps in agricultural productivity in Senegal. Using multivariate models based on the Kitagawa-Oaxaca-Blinder decomposition approach, the study reveals that plots managed by women are, on average, more productive than those managed by men, primarily due to the smaller plot sizes and the cultivation of rainfed rice, a high-yield crop often grown by women. The observed productivity gap is largely explained by differences in endowments, particularly unequal access to resources. Innovations such as certified seeds and chemical fertilizers are associated with increased productivity, and improving women’s access to these innovations could unlock even greater productivity potential.</p>
+            <p><strong>Impact:</strong> Following this work, I was invited to present the research findings to stakeholders (IFAD, Senegal’s Ministry of Agriculture, and farmers) and authored a policy brief that outlines the various recommendations from the study. I emphasized the need to improve women’s access to land and agricultural innovations to maximize agricultural productivity in Senegal. The recommendations include land tenure reforms, financing innovations for women, and reducing barriers to the adoption of motorized equipment. This study fills an information gap on the drivers of agricultural productivity in Senegal and proposes policy levers to increase food production, improve equity, and optimize decision-making within the framework of the National Agricultural Investment Program for Food Security and Nutrition (PNIASAN). It provides an empirical basis for informing policies aimed at reducing gender disparities in technology adoption and productivity.</p>
 
+            <p><strong>Kane, Aboubacry & Huchet, Marilyne.</strong> "Agricultural Productivity and Food Security in the Countries of the West African Economic and Monetary Union (WAEMU): A Gender Analysis."</p>
+            <p>This study analyzes the determinants of agricultural productivity by gender and examines its impact on food security within the West African Economic and Monetary Union (WAEMU). The research applies a two-stage least squares (2SLS) method to identify factors influencing productivity by gender and correct for endogeneity bias. The results show that factors such as family farming, pesticide use, improved seeds, and organic fertilizers increase productivity, regardless of gender. Marriage enhances productivity for women, while certain agricultural practices, such as herbicide use and crop association, have a negative impact. Agricultural productivity contributes to food security, as measured by the Household Hunger Score (HHS), but not by the Household Dietary Diversity Score (HDDS).</p>
+            <p><strong>Impact:</strong> This research highlights the importance of integrating gender dynamics into agricultural policies to improve productivity and food security in the WAEMU region. The findings have helped raise awareness among policymakers about the need to invest in agricultural technologies, support family farming, and promote the diversification of crops and income. The study proposes specific policies to strengthen the productivity of women farmers and recommends targeted initiatives to improve food security for vulnerable households. These conclusions provide a solid foundation for policy development and future research, suggesting an extension of the analysis to sub-Saharan Africa and a longitudinal approach to agricultural productivity trends.</p>
 
+            <h3><strong style="color:red;">Policy Brief:</strong></h3>
 
+            <p><strong><a href="https://www.50x2030.org/sites/default/files/resources/documents/2023-07/Policy%20Brief_Senegal_Aboubacry%20Kane%20et%20al_Differences%20in%20Agricultural%20Productivity%20Among%20Women%20and%20Men.pdf" target="_blank">Exploring differences in agricultural productivity among women and men on small-scale farms in Senegal: Contributions of agricultural innovations</a></strong></p>
+            <p>October 2021 By Aboubacry KANE and MOUHAMADOU M. AIDARA</p>
+            <p><strong>KEY MESSAGES</strong></p>
+            <ul>
+                <li>On small-scale farms in Senegal men are more likely than women to adopt agricultural innovations such as improved seed, fertilizer, agrochemicals, or machinery.</li>
+                <li>However, farm plots managed by women are, on average, more productive than those managed by men for many crops and across regions in the country.</li>
+                <li>The fact that women cultivate smaller plots, as well as specialize in certain high-yielding crops including rainfed rice, explains much of this difference in land productivity.</li>
+                <li>Multivariate models based on the Kitagawa-Oaxaca-Blinder approach suggest that if endowments of women's plots – especially size of farmed areas – were adjusted to the same level as those of men's plots, men's productivity would be higher, in part due to greater use of agricultural technologies.</li>
+                <li>If women and men had the same level of adoption of certified seed and chemical fertilizers (NPK, Urea, Phosphate), then women's productivity would further increase by between 0.4% and 0.5%.</li>
+                <li>Study findings suggest a need for further studies using gender disaggregated data to fully unleash the agricultural production potential of both women and men in rural Senegalese farm communities.</li>
+            </ul>
+
+            <h3>Table: Summary Policy Implications</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Policy instruments</th>
+                        <th>Benefits</th>
+                        <th>Disadvantages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Facilitating access to land for women</td>
+                        <td>- Unlocking the productivity potential of women<br>- Less expensive than other instruments<br>- Fairness instrument</td>
+                        <td>- No disadvantages</td>
+                    </tr>
+                    <tr>
+                        <td>Ensure the availability of innovations and increase women's ability to bear the cost of innovations.</td>
+                        <td>- Modernize agricultural work tools.<br>- Increase agricultural yields with innovative techniques and practices.<br>- Increase women's income.</td>
+                        <td>- Costly<br>- Its implementation requires a great deal of financial and technical effort at several levels.</td>
+                    </tr>
+                    <tr>
+                        <td>Subsidize motorized equipment for women</td>
+                        <td>- Reduction of costs incurred in production.</td>
+                        <td>- Costly</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3><strong style="color:red;">Blog Posts and Outreach Texts</strong></h3>
+
+            <p><strong>Kane, Aboubacry & Diouf Dominique (2021).</strong> <a href="https://openair.africa/quelle-est-la-place-de-la-femme-dans-lecosysteme-digital-au-senegal/" target="_blank">What is the Role of Women in the Digital Ecosystem in Senegal?</a></p>
+            <p>Blog post Open AIR. March 2021.</p>
+
+            <p><strong>Kane, Aboubacry (2020).</strong> <a href="https://www.researchgate.net/publication/342480768_L%27INDUSTRIE_MANUFACTURIERE_SENEGALAISE_l%27heure_de_la_transformation_numerique" target="_blank">L'industrie manufacturière sénégalaise : l'heure de la transformation numérique.</a></p>
+            <p>Contribution sur researchgate. Juin 2020. DOI: 10.13140/RG.2.2.15854.84803</p>
+
+            <p><strong>Kane, Aboubacry (2020).</strong> <a href="https://openair.africa/secteur-informel-senegalais-apres-la-crise-la-survie/" target="_blank">Secteur informel Sénégalais : après la crise, la survie</a></p>
+            <p>Blog post Open AIR. Août 2020.</p>
+
+            <p><strong>Kane, Aboubacry (2019).</strong> <a href="https://openair.africa/les-femmes-entrepreneures-au-senegal-entre-montee-en-puissance-et-difficulte-dacces-a-la-technologie-et-a-linnovation/" target="_blank">Les Femmes entrepreneures au Sénégal : entre montée en puissance et difficulté d’accès à la technologie et à l’innovation.</a></p>
+            <p>Blog post Open AIR. Novembre 2019.</p>
+
+            <h3><strong style="color:red;">Work in Progress</strong></h3>
+
+            <p>1) <strong>Responsible and open supply chains for the transformation and traceability of agrifood ecosystems (CAROTTE AA)</strong> with <a href="https://www.polymtl.ca/expertises/beaudry-catherine" target="_blank">Professor Catherine Beaudry</a> and seven other researchers from various disciplines.</p>
+
+            <p>2) <strong>Technological Entrepreneurship in Black Communities</strong> with <a href="https://www.polymtl.ca/expertises/niamie-yabo-octave" target="_blank">Octave Niamé</a>.</p>
+        </section>
         
-        <h3><strong style="color:red;">Blog Posts and Outreach Texts</strong></h3>
+        <footer>
+            <p class="contact-info">Contact: aboubacry-2.kane@polymtl.ca</p>
+        </footer>
+    </div>
 
-
-        <p><strong>Kane, Aboubacry & Diouf Dominique (2021).</strong> <a href="https://openair.africa/quelle-est-la-place-de-la-femme-dans-lecosysteme-digital-au-senegal/" target="_blank">What is the Role of Women in the Digital Ecosystem in Senegal?</a></p>
-        <p>Blog post Open AIR. March 2021.</p>
-
-        <p><strong>Kane, Aboubacry (2020).</strong> <a href="https://www.researchgate.net/publication/342480768_L%27INDUSTRIE_MANUFACTURIERE_SENEGALAISE_l%27heure_de_la_transformation_numerique" target="_blank">L'industrie manufacturière sénégalaise : l'heure de la transformation numérique.</a></p>
-        <p>Contribution sur researchgate. Juin 2020. DOI: 10.13140/RG.2.2.15854.84803</p>
-
-        <p><strong>Kane, Aboubacry (2020).</strong> <a href="https://openair.africa/secteur-informel-senegalais-apres-la-crise-la-survie/" target="_blank">Secteur informel Sénégalais : après la crise, la survie</a></p>
-        <p>Blog post Open AIR. Août 2020.</p>
-
-        <p><strong>Kane, Aboubacry (2019).</strong> <a href="https://openair.africa/les-femmes-entrepreneures-au-senegal-entre-montee-en-puissance-et-difficulte-dacces-a-la-technologie-et-a-linnovation/" target="_blank">Les Femmes entrepreneures au Sénégal : entre montée en puissance et difficulté d’accès à la technologie et à l’innovation.</a></p>
-        <p>Blog post Open AIR. Novembre 2019.</p>
-
-      
-        <h3><strong style="color:red;">Work in Progress</strong></h3>
-
-
-        <p>1) <strong>Responsible and open supply chains for the transformation and traceability of agrifood ecosystems (CAROTTE AA)</strong> with <a href="https://www.polymtl.ca/expertises/beaudry-catherine" target="_blank">Professor Catherine Beaudry</a> and seven other researchers from various disciplines.</p>
-
-        <p>2) <strong>Technological Entrepreneurship in Black Communities</strong> with <a href="https://www.polymtl.ca/expertises/niamie-yabo-octave" target="_blank">Octave Niamé</a>.</p>
-
-
-    </section>
-    
-    <footer>
-        <p>Contact: aboubacry-2.kane@polymtl.ca</p>
-    </footer>
 </body>
 </html>
